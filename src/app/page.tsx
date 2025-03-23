@@ -1,6 +1,5 @@
 import React from 'react'
-import Hero from './components/Hero'
-import { div } from 'framer-motion/m'
+import Hero from './components/Hero';
 import Feaures from './components/Feaures'
 
 const page = () => {

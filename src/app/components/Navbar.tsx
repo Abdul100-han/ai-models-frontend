@@ -4,6 +4,7 @@ import { useState } from "react";
 import Image from "next/image";
 import Link from "next/link";
 import { Menu, X } from "lucide-react";
+import logo from "../../../public/logo.jpg"
 
 const Navbar = () => {
   const [isOpen, setIsOpen] = useState(false);
@@ -22,7 +23,7 @@ const Navbar = () => {
       <div className="flex items-center justify-between">
         {/* Logo on the Left */}
         <Image
-          src={require("../../../public/logo.jpg")}
+          src={logo}
           alt="logo"
           width={48}
           height={48}
